@@ -9,8 +9,10 @@ from airflow import DAG
 from airflow.operators.python import  PythonOperator
 import logging
 from confluent_kafka import Producer
-# Add the root project directory to the Python path
+
+# Add root directory to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from jobs.config import configuration
 from faker import Faker
 
