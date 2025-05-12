@@ -1,6 +1,6 @@
 # Financial-Data-Stream
 
-**#Introduction**
+# Introduction
 This project implements a real-time financial data streaming pipeline utilising **Apache Kafka, Apache Spark, MinIO (S3-compatible object store), ClickHouse and Apache Airflow. ** Everything is containerized using docker.
 
 
